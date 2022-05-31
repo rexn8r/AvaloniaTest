@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="clr-namespace:AvaloniaGif;assembly=AvaloniaGif"
+		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="VLCPlayer.ImageWindow"
+		Background="Transparent"
+		TransparencyLevelHint="Transparent"
+		HasSystemDecorations="False"
+		CanResize="False"
+		SystemDecorations="None"
+		WindowStartupLocation="Manual"
+		WindowState="Normal"
+		ShowInTaskbar="False"
+		Position="0,0"
+        Title="ImageWindow">
+	<Panel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+		<gif:GifImage Name="imgGIF" Stretch="Fill" StretchDirection="Both"></gif:GifImage>
+	</Panel>
+</Window>
