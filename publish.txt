@@ -2,6 +2,6 @@ win-x64
 -------
 dotnet publish VLCPlayer.sln -c Release --runtime win-x64 -p:PublishReadyToRun=true --self-contained --output ./dist/win-x64
 
-win-x64
+linux-x64
 -------
 dotnet publish VLCPlayer.sln -c Release --runtime linux-x64 -p:PublishReadyToRun=true --self-contained --output ./dist/linux-x64
